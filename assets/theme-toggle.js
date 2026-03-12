@@ -13,34 +13,25 @@
     localStorage.setItem('theme', theme);
   }
 
-  function labelFor(theme) {
-    return theme === 'dark' ? 'Light Mode' : 'Dark Mode';
-  }
-
-  function updateButton(btn) {
+  function updateToggleLabel() {
+    var link = document.querySelector('a[href="#theme-toggle"]');
+    if (!link) return;
     var current = document.documentElement.getAttribute('data-theme') || 'dark';
-    btn.textContent = labelFor(current);
-    btn.setAttribute('aria-pressed', current === 'dark' ? 'true' : 'false');
-    btn.classList.toggle('is-dark', current === 'dark');
+    link.textContent = current === 'dark' ? 'Light Mode' : 'Dark Mode';
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     setTheme(getPreferredTheme());
+    updateToggleLabel();
 
     var link = document.querySelector('a[href="#theme-toggle"]');
     if (!link) return;
-
-    var btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'theme-toggle-btn';
-    btn.addEventListener('click', function () {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
       var current = document.documentElement.getAttribute('data-theme') || 'dark';
       var next = current === 'dark' ? 'light' : 'dark';
       setTheme(next);
-      updateButton(btn);
+      updateToggleLabel();
     });
-
-    link.replaceWith(btn);
-    updateButton(btn);
   });
 })();
