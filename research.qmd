@@ -8,7 +8,7 @@ My research examines how scientific knowledge is produced through code, statisti
 
 ![](assets/acorn-logo.png){width=180px}
 
-I lead the ReproducibiliBuddy team’s code review efforts within ACORN Lab, focusing on reproducible workflows, evaluation rubrics, and practical guidance for transparent computational research.
+I lead the ReproducibiliBuddy team's code review efforts within ACORN Lab, focusing on reproducible workflows, evaluation rubrics, and practical guidance for transparent computational research.
 
 <details>
 <summary><strong>Publications</strong></summary>
@@ -28,8 +28,8 @@ I lead the ReproducibiliBuddy team’s code review efforts within ACORN Lab, focus
 <details>
 <summary><strong>Code Repositories</strong></summary>
 
-- Measurement Invariance Toolkit — https://github.com/MarcusHarrisUConn/REPO-NAME
-- Reproducible Workflow Rubric — https://github.com/MarcusHarrisUConn/REPO-NAME
+- Measurement Invariance Toolkit - https://github.com/MarcusHarrisUConn/REPO-NAME
+- Reproducible Workflow Rubric - https://github.com/MarcusHarrisUConn/REPO-NAME
 
 </details>
 

@@ -1,6 +1,6 @@
 ---
 title: "Marcus Harris"
-subtitle: "Psychometrics • Meta-Research • Measurement"
+subtitle: "Psychometrics - Meta-Research - Measurement"
 ---
 
 I build tools and theories for reliable measurement in psychology and education. My work focuses on psychometric modeling, meta-research, and open, reproducible methods.

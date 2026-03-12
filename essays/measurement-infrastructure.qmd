@@ -5,6 +5,6 @@ description: "Why measurement theory is the hidden scaffolding of empirical scie
 categories: [measurement, meta-research]
 ---
 
-Measurement is not a sidebar to science—it is the infrastructure that makes discovery legible. When we get measurement wrong, we silently corrupt every downstream inference.
+Measurement is not a sidebar to science - it is the infrastructure that makes discovery legible. When we get measurement wrong, we silently corrupt every downstream inference.
 
 This essay outlines a pragmatic view of measurement: treat it as a public good, document its assumptions, and design it for reuse.
