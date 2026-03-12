@@ -15,6 +15,13 @@ I build tools and theories for reliable measurement in psychology and education.
 - Auditing common practices in scale development across subfields
 - Building open teaching materials for measurement theory
 
+**Essays**
+- [Read the essays and blog](essays.qmd)
+
+**CV**
+- [View the CV page](cv.qmd)
+- [Download CV (PDF)](assets/CV.pdf)
+
 **Contact**
 - Email: marcus@example.com
 - GitHub: github.com/your-username

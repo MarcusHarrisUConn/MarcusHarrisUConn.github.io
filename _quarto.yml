@@ -14,6 +14,9 @@ website:
         text: Research
       - href: cv.qmd
         text: CV
+    right:
+      - href: assets/CV.pdf
+        text: CV (PDF)
 
 format:
   html:

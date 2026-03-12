@@ -18,7 +18,7 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Download CV (PDF)\nEducation - PhD, Psychology (Quantitative Methods), University Name, Year - MA, Psychology, University Name, Year - BS, Psychology, University Name, Year\nAppointments - Assistant Professor, Department, University, Years\nSelected Publications - Harris, M. (2026). Title of Paper. Journal. - Harris, M., & Coauthor, A. (2025). Title of Paper. Journal.\nGrants - Grant Title, Agency, Years\nTeaching - Psychometrics - Research Methods - Bayesian Statistics\nService - Reviewer, Journal Name - Committee Member, Society Name"
+    "text": "Download CV (PDF)\n\n\nEducation - PhD, Psychology (Quantitative Methods), University Name, Year - MA, Psychology, University Name, Year - BS, Psychology, University Name, Year\nAppointments - Assistant Professor, Department, University, Years\nSelected Publications - Harris, M. (2026). Title of Paper. Journal. - Harris, M., & Coauthor, A. (2025). Title of Paper. Journal.\nGrants - Grant Title, Agency, Years\nTeaching - Psychometrics - Research Methods - Bayesian Statistics\nService - Reviewer, Journal Name - Committee Member, Society Name"
   },
   {
     "objectID": "essays/measurement-infrastructure.html",
@@ -32,6 +32,6 @@
     "href": "index.html",
     "title": "Marcus Harris",
     "section": "",
-    "text": "I build tools and theories for reliable measurement in psychology and education. My work focuses on psychometric modeling, meta-research, and open, reproducible methods.\nResearch Focus - Measurement invariance and fairness - Meta-analytic methods and bias detection - Bayesian and multilevel psychometrics\nCurrent Work - Developing simulation tools for power and reliability in scale validation - Auditing common practices in scale development across subfields - Building open teaching materials for measurement theory\nContact - Email: marcus@example.com - GitHub: github.com/your-username - Google Scholar: scholar.google.com/citations?user=YOUR_ID"
+    "text": "I build tools and theories for reliable measurement in psychology and education. My work focuses on psychometric modeling, meta-research, and open, reproducible methods.\nResearch Focus - Measurement invariance and fairness - Meta-analytic methods and bias detection - Bayesian and multilevel psychometrics\nCurrent Work - Developing simulation tools for power and reliability in scale validation - Auditing common practices in scale development across subfields - Building open teaching materials for measurement theory\nEssays - Read the essays and blog\nCV - View the CV page - Download CV (PDF)\nContact - Email: marcus@example.com - GitHub: github.com/your-username - Google Scholar: scholar.google.com/citations?user=YOUR_ID"
   }
 ]

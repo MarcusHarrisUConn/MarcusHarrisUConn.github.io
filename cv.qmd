@@ -4,6 +4,8 @@ title: "CV"
 
 [Download CV (PDF)](assets/CV.pdf)
 
+<iframe src="assets/CV.pdf" width="100%" height="1000" style="border:2px solid #111;"></iframe>
+
 **Education**
 - PhD, Psychology (Quantitative Methods), University Name, Year
 - MA, Psychology, University Name, Year
