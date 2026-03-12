@@ -5,7 +5,7 @@
   --bg: #0d1b1e; /* deep teal */
   --paper: #0f2a2f; /* terminal screen */
   --ink: #c8f7e3; /* terminal text */
-  --muted: #7fb9a3;
+  --muted: #bfeedd;
   --accent: #7cf5c3; /* glow */
   --line: #2b5b50;
   --mono: "IBM Plex Mono", monospace;
@@ -20,8 +20,8 @@ body {
   background-image:
     radial-gradient(circle at 20% 20%, rgba(124,245,195,0.10), transparent 45%),
     radial-gradient(circle at 80% 30%, rgba(124,245,195,0.06), transparent 50%),
-    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
-  background-size: 100% 100%, 100% 100%, 100% 3px;
+    linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 6px;
 }
 
 .content {
@@ -153,7 +153,7 @@ table th, table td {
 .quarto-listing-container .listing-date,
 .quarto-listing-container .listing-author,
 .quarto-listing-container .listing-categories {
-  color: var(--muted) !important;
+  color: var(--ink) !important;
 }
 
 .quarto-listing-container .listing-category {
