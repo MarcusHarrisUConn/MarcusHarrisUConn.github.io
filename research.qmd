@@ -4,19 +4,19 @@ title: "Research"
 
 My research examines how scientific knowledge is produced through code, statistical workflows, and research infrastructures, with the goal of improving the credibility and transparency of computational science. I develop theoretical frameworks and evaluation tools for assessing research code, including rubric-based approaches for evaluating reproducible statistical workflows. My broader program advances a systems-level approach to scientific practice, integrating computational epistemology, evaluation theory, and meta-science.
 
-**Areas**
-- Psychometric modeling and scale validation
-- Meta-analytic methods and research synthesis
-- Open and reproducible measurement workflows
-
-**Selected Projects**
-- *Measurement Invariance Toolkit* — Methods and software to test fairness across groups
-- *Scale Audit Study* — A review of validation practices in applied psychology
-- *Reliable Scores* — Practical guidance for researchers using latent variable models
-
-**Preprints and Publications**
-- Harris, M. (2026). *Title of Paper*. Journal/Preprint server.
+**Publications**
+- Harris, M. (2026). *Title of Paper*. Journal. [PDF](assets/CV.pdf)
 - Harris, M., & Coauthor, A. (2025). *Title of Paper*. Journal.
+
+**Preprints**
+- Harris, M. (2026). *Title of Preprint*. Preprint server.
+
+**Code**
+- Measurement Invariance Toolkit — https://github.com/MarcusHarrisUConn/REPO-NAME
+- Reproducible Workflow Rubric — https://github.com/MarcusHarrisUConn/REPO-NAME
+
+**Posters**
+- 2026: *Poster Title*, Conference Name. [PDF](assets/CV.pdf)
 
 **Talks**
 - 2026: Invited talk on measurement bias, Conference Name
