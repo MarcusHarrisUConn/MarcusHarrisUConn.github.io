@@ -19,7 +19,7 @@ I build tools and theories for reliable measurement in psychology and education.
 - Building open teaching materials for reproducible computational research
 
 **Essays**
-- [Read the essays and blog](essays.qmd)
+- [Read the essays](essays.qmd)
 
 **CV**
 - [View the CV page](cv.qmd)
@@ -27,4 +27,4 @@ I build tools and theories for reliable measurement in psychology and education.
 
 **Contact**
 - Email: marcus.harris@uconn.edu
-- GitHub: https://github.com/MarcusHarrisUConn
+- <span style="white-space:nowrap">GitHub: https://github.com/MarcusHarrisUConn</span>

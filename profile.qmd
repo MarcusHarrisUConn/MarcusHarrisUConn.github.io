@@ -8,4 +8,4 @@ Marcus Harris is a PhD researcher in research methods, measurement, and evaluati
 
 **Contact**
 - Email: marcus.harris@uconn.edu
-- GitHub: https://github.com/MarcusHarrisUConn
+- <span style="white-space:nowrap">GitHub: https://github.com/MarcusHarrisUConn</span>
