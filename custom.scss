@@ -49,6 +49,9 @@ a:focus {
   font-family: var(--display);
   text-transform: uppercase;
   letter-spacing: 0.12em;
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
 }
 
 .navbar-nav .nav-link {
