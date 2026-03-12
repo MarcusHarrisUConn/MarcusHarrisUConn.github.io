@@ -1,0 +1,29 @@
+---
+title: "CV"
+---
+
+[Download CV (PDF)](assets/CV.pdf)
+
+**Education**
+- PhD, Psychology (Quantitative Methods), University Name, Year
+- MA, Psychology, University Name, Year
+- BS, Psychology, University Name, Year
+
+**Appointments**
+- Assistant Professor, Department, University, Years
+
+**Selected Publications**
+- Harris, M. (2026). *Title of Paper*. Journal.
+- Harris, M., & Coauthor, A. (2025). *Title of Paper*. Journal.
+
+**Grants**
+- Grant Title, Agency, Years
+
+**Teaching**
+- Psychometrics
+- Research Methods
+- Bayesian Statistics
+
+**Service**
+- Reviewer, Journal Name
+- Committee Member, Society Name

@@ -1,0 +1,10 @@
+---
+title: "Essays"
+listing:
+  contents: essays
+  sort: "date desc"
+  type: default
+  fields: [title, date, categories, description]
+---
+
+Short essays on measurement, methods, and the craft of research.

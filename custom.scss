@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&family=Space+Grotesk:wght@400;600;700&display=swap');
+
+/*-- scss:defaults --*/
+:root {
+  --bg: #f7f4ef;
+  --paper: #ffffff;
+  --ink: #111111;
+  --muted: #444444;
+  --accent: #b30000;
+  --line: #111111;
+  --mono: "IBM Plex Mono", monospace;
+  --display: "Space Grotesk", sans-serif;
+}
+
+/*-- scss:rules --*/
+body {
+  font-family: var(--mono);
+  color: var(--ink);
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(transparent 23px, rgba(0,0,0,0.06) 24px),
+    linear-gradient(90deg, transparent 23px, rgba(0,0,0,0.06) 24px);
+  background-size: 24px 24px;
+}
+
+.content {
+  max-width: 860px;
+}
+
+a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+a:hover,
+a:focus {
+  color: var(--accent);
+}
+
+.navbar {
+  border-bottom: 3px solid var(--line);
+  background: var(--paper) !important;
+}
+
+.navbar-brand {
+  font-family: var(--display);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.navbar-nav .nav-link {
+  font-family: var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--display);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+h1 {
+  border-bottom: 4px solid var(--line);
+  padding-bottom: 0.2rem;
+}
+
+blockquote {
+  border-left: 5px solid var(--line);
+  padding-left: 1rem;
+  background: var(--paper);
+}
+
+code, pre {
+  font-family: var(--mono);
+}
+
+pre {
+  background: var(--paper);
+  border: 2px solid var(--line);
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 2px solid var(--line);
+  padding: 0.5rem 0.6rem;
+}
+
+.quarto-listing-container .quarto-listing-item {
+  border: 2px solid var(--line);
+  background: var(--paper);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.quarto-title-block .quarto-title-banner {
+  background: var(--paper);
+  border: 3px solid var(--line);
+}
+
+.toc {
+  border-left: 3px solid var(--line);
+  padding-left: 0.75rem;
+}
+
+.footer {
+  border-top: 3px solid var(--line);
+  background: var(--paper);
+}

@@ -1,0 +1,21 @@
+---
+title: "Marcus Harris"
+subtitle: "Psychometrics • Meta-Research • Measurement"
+---
+
+I build tools and theories for reliable measurement in psychology and education. My work focuses on psychometric modeling, meta-research, and open, reproducible methods.
+
+**Research Focus**
+- Measurement invariance and fairness
+- Meta-analytic methods and bias detection
+- Bayesian and multilevel psychometrics
+
+**Current Work**
+- Developing simulation tools for power and reliability in scale validation
+- Auditing common practices in scale development across subfields
+- Building open teaching materials for measurement theory
+
+**Contact**
+- Email: marcus@example.com
+- GitHub: github.com/your-username
+- Google Scholar: scholar.google.com/citations?user=YOUR_ID

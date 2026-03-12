@@ -1,0 +1,21 @@
+---
+title: "Research"
+---
+
+**Areas**
+- Psychometric modeling and scale validation
+- Meta-analytic methods and research synthesis
+- Open and reproducible measurement workflows
+
+**Selected Projects**
+- *Measurement Invariance Toolkit* — Methods and software to test fairness across groups
+- *Scale Audit Study* — A review of validation practices in applied psychology
+- *Reliable Scores* — Practical guidance for researchers using latent variable models
+
+**Preprints and Publications**
+- Harris, M. (2026). *Title of Paper*. Journal/Preprint server.
+- Harris, M., & Coauthor, A. (2025). *Title of Paper*. Journal.
+
+**Talks**
+- 2026: Invited talk on measurement bias, Conference Name
+- 2025: Workshop on reproducible psychometrics, University Name

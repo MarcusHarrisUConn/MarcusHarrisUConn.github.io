@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Areas - Psychometric modeling and scale validation - Meta-analytic methods and research synthesis - Open and reproducible measurement workflows\nSelected Projects - Measurement Invariance Toolkit � Methods and software to test fairness across groups - Scale Audit Study � A review of validation practices in applied psychology - Reliable Scores � Practical guidance for researchers using latent variable models\nPreprints and Publications - Harris, M. (2026). Title of Paper. Journal/Preprint server. - Harris, M., & Coauthor, A. (2025). Title of Paper. Journal.\nTalks - 2026: Invited talk on measurement bias, Conference Name - 2025: Workshop on reproducible psychometrics, University Name"
+  },
+  {
+    "objectID": "essays.html",
+    "href": "essays.html",
+    "title": "Essays",
+    "section": "",
+    "text": "Short essays on measurement, methods, and the craft of research.\n\n\n\n\n\n\n\n\n\nOn Measurement as Infrastructure\n\n\n\nmeasurement\n\nmeta-research\n\n\n\nWhy measurement theory is the hidden scaffolding of empirical science.\n\n\n\n\n\nMar 12, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV (PDF)\nEducation - PhD, Psychology (Quantitative Methods), University Name, Year - MA, Psychology, University Name, Year - BS, Psychology, University Name, Year\nAppointments - Assistant Professor, Department, University, Years\nSelected Publications - Harris, M. (2026). Title of Paper. Journal. - Harris, M., & Coauthor, A. (2025). Title of Paper. Journal.\nGrants - Grant Title, Agency, Years\nTeaching - Psychometrics - Research Methods - Bayesian Statistics\nService - Reviewer, Journal Name - Committee Member, Society Name"
+  },
+  {
+    "objectID": "essays/measurement-infrastructure.html",
+    "href": "essays/measurement-infrastructure.html",
+    "title": "On Measurement as Infrastructure",
+    "section": "",
+    "text": "Measurement is not a sidebar to science�it is the infrastructure that makes discovery legible. When we get measurement wrong, we silently corrupt every downstream inference.\nThis essay outlines a pragmatic view of measurement: treat it as a public good, document its assumptions, and design it for reuse."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Marcus Harris",
+    "section": "",
+    "text": "I build tools and theories for reliable measurement in psychology and education. My work focuses on psychometric modeling, meta-research, and open, reproducible methods.\nResearch Focus - Measurement invariance and fairness - Meta-analytic methods and bias detection - Bayesian and multilevel psychometrics\nCurrent Work - Developing simulation tools for power and reliability in scale validation - Auditing common practices in scale development across subfields - Building open teaching materials for measurement theory\nContact - Email: marcus@example.com - GitHub: github.com/your-username - Google Scholar: scholar.google.com/citations?user=YOUR_ID"
+  }
+]

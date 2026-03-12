@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Marcus Harris"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: essays.qmd
+        text: Essays
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+    toc: true
+    code-copy: true
