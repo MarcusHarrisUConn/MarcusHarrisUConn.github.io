@@ -4,8 +4,8 @@
 :root {
   --bg: #0d1b1e; /* deep teal */
   --paper: #0f2a2f; /* terminal screen */
-  --ink: #c8f7e3; /* terminal text */
-  --muted: #bfeedd;
+  --ink: #f2f2f2; /* white text */
+  --muted: #f2f2f2;
   --accent: #7cf5c3; /* glow */
   --line: #2b5b50;
   --mono: "IBM Plex Mono", monospace;
@@ -157,7 +157,7 @@ table th, table td {
 }
 
 .quarto-listing-container .listing-category {
-  color: var(--accent) !important;
+  color: var(--ink) !important;
   border: 1px solid var(--accent) !important;
   background: transparent !important;
 }
