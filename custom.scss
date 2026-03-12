@@ -134,6 +134,34 @@ table th, table td {
   margin-bottom: 1rem;
 }
 
+.quarto-listing-container .listing-title,
+.quarto-listing-container .listing-title a {
+  color: var(--ink) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.quarto-listing-container .listing-title a:hover {
+  color: var(--accent) !important;
+}
+
+.quarto-listing-container .listing-subtitle,
+.quarto-listing-container .listing-description {
+  color: var(--muted) !important;
+}
+
+.quarto-listing-container .listing-date,
+.quarto-listing-container .listing-author,
+.quarto-listing-container .listing-categories {
+  color: var(--muted) !important;
+}
+
+.quarto-listing-container .listing-category {
+  color: var(--ink) !important;
+  border: 2px solid var(--line) !important;
+  background: transparent !important;
+}
+
 .toc {
   border-left: 4px solid var(--line);
   padding-left: 0.75rem;
