@@ -2,6 +2,8 @@
 title: "Research"
 ---
 
+My research examines how scientific knowledge is produced through code, statistical workflows, and research infrastructures, with the goal of improving the credibility and transparency of computational science. I develop theoretical frameworks and evaluation tools for assessing research code, including rubric-based approaches for evaluating reproducible statistical workflows. My broader program advances a systems-level approach to scientific practice, integrating computational epistemology, evaluation theory, and meta-science.
+
 **Areas**
 - Psychometric modeling and scale validation
 - Meta-analytic methods and research synthesis

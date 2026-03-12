@@ -5,6 +5,9 @@ subtitle: "Psychometrics • Meta-Research • Measurement"
 
 I build tools and theories for reliable measurement in psychology and education. My work focuses on psychometric modeling, meta-research, and open, reproducible methods.
 
+**Profile**
+- [View my profile](profile.qmd)
+
 **Research Focus**
 - Measurement invariance and fairness
 - Meta-analytic methods and bias detection
@@ -23,6 +26,5 @@ I build tools and theories for reliable measurement in psychology and education.
 - [Download CV (PDF)](assets/CV.pdf)
 
 **Contact**
-- Email: marcus@example.com
-- GitHub: github.com/your-username
-- Google Scholar: scholar.google.com/citations?user=YOUR_ID
+- Email: marcus.harris@uconn.edu
+- GitHub: https://github.com/MarcusHarrisUConn
