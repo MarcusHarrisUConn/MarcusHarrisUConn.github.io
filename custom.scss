@@ -26,22 +26,18 @@ body {
   font-family: var(--mono);
   color: var(--ink);
   background-color: var(--bg);
-  background-image:
-    linear-gradient(transparent 23px, rgba(255,255,255,0.10) 24px),
-    linear-gradient(90deg, transparent 23px, rgba(255,255,255,0.10) 24px),
-    linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.04));
-  background-size: 24px 24px, 24px 24px, 100% 100%;
-}
-
-[data-theme="light"] body {
-  background-image:
-    linear-gradient(transparent 23px, rgba(0,0,0,0.10) 24px),
-    linear-gradient(90deg, transparent 23px, rgba(0,0,0,0.10) 24px),
-    linear-gradient(180deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05));
 }
 
 .content {
   max-width: 880px;
+  background: var(--paper);
+  border: 3px solid var(--line);
+  padding: 2rem;
+  box-shadow: 14px 14px 0 rgba(0, 0, 0, 0.35);
+}
+
+[data-theme="light"] .content {
+  box-shadow: 14px 14px 0 rgba(0, 0, 0, 0.15);
 }
 
 a {
