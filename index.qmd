@@ -9,14 +9,14 @@ I build tools and theories for reliable measurement in psychology and education.
 - [View my profile](profile.qmd)
 
 **Research Focus**
-- Measurement invariance and fairness
-- Meta-analytic methods and bias detection
-- Bayesian and multilevel psychometrics
+- Computational reproducibility and evaluation of research code
+- Meta-research on scientific practices, incentives, and methodology
+- Simulation-based methods and psychometric evaluation
 
 **Current Work**
-- Developing simulation tools for power and reliability in scale validation
-- Auditing common practices in scale development across subfields
-- Building open teaching materials for measurement theory
+- Developing a rubric to evaluate reproducible statistical code
+- Studying how researchers interpret and apply reproducibility standards
+- Building open teaching materials for reproducible computational research
 
 **Essays**
 - [Read the essays and blog](essays.qmd)
