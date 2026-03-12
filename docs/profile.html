@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-33f657051769576607573596aaa6930e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-589ab12f17e7de6a28dd3c4556c3a3e5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,6 +112,10 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./#theme-toggle"> 
+<span class="menu-text">Theme</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="https://github.com/MarcusHarrisUConn"> 
 <span class="menu-text">GitHub</span></a>
   </li>  
@@ -158,6 +162,44 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+/* Theme toggle: toggles data-theme on  */
+(function () {
+  function getPreferredTheme() {
+    var stored = localStorage.getItem('theme');
+    if (stored === 'light' || stored === 'dark') return stored;
+    return window.matchMedia &amp;&amp; window.matchMedia('(prefers-color-scheme: light)').matches
+      ? 'light'
+      : 'dark';
+  }
+
+  function setTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }
+
+  function updateToggleLabel() {
+    var link = document.querySelector('a[href="#theme-toggle"]');
+    if (!link) return;
+    var current = document.documentElement.getAttribute('data-theme') || 'dark';
+    link.textContent = current === 'dark' ? 'Light Mode' : 'Dark Mode';
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    setTheme(getPreferredTheme());
+    updateToggleLabel();
+
+    var link = document.querySelector('a[href="#theme-toggle"]');
+    if (!link) return;
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      var current = document.documentElement.getAttribute('data-theme') || 'dark';
+      var next = current === 'dark' ? 'light' : 'dark';
+      setTheme(next);
+      updateToggleLabel();
+    });
+  });
+})();
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

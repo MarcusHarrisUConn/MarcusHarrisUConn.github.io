@@ -12,6 +12,15 @@
   --display: "Space Grotesk", sans-serif;
 }
 
+[data-theme="light"] {
+  --bg: #d6d3cf;
+  --paper: #f7f5f2;
+  --ink: #111111;
+  --muted: #3a3a3a;
+  --accent: #b00020;
+  --line: #111111;
+}
+
 /*-- scss:rules --*/
 body {
   font-family: var(--mono);
@@ -22,6 +31,13 @@ body {
     linear-gradient(90deg, transparent 23px, rgba(255,255,255,0.10) 24px),
     linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.04));
   background-size: 24px 24px, 24px 24px, 100% 100%;
+}
+
+[data-theme="light"] body {
+  background-image:
+    linear-gradient(transparent 23px, rgba(0,0,0,0.10) 24px),
+    linear-gradient(90deg, transparent 23px, rgba(0,0,0,0.10) 24px),
+    linear-gradient(180deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05));
 }
 
 .content {
