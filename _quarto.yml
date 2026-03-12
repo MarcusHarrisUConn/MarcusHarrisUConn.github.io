@@ -17,8 +17,6 @@ website:
       - href: cv.qmd
         text: CV
     right:
-      - href: assets/CV.pdf
-        text: CV (PDF)
       - href: https://github.com/MarcusHarrisUConn
         text: GitHub
 
