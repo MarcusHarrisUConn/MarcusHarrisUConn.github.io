@@ -81,6 +81,22 @@ a:focus {
   color: var(--accent) !important;
 }
 
+.theme-toggle-btn {
+  font-family: var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border: 2px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  padding: 0.25rem 0.6rem;
+}
+
+.theme-toggle-btn.is-dark {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--display);
   text-transform: uppercase;
