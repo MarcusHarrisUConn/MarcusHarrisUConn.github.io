@@ -45,7 +45,9 @@ body {
   background: linear-gradient(90deg, rgba(124,245,195,0.15), rgba(124,245,195,0.03));
 }
 
-.contact-line {
+.contact-item {
+  display: block;
+  margin-bottom: 0.35rem;
   overflow-wrap: anywhere;
   word-break: break-word;
 }
@@ -220,4 +222,5 @@ details summary::after {
 
 details[open] summary::after {
   content: " -";
+  color: var(--accent);
 }

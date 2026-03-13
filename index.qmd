@@ -26,5 +26,5 @@ I build tools and theories for reliable measurement in psychology and education.
 - [Download CV (PDF)](assets/CV.pdf)
 
 **Contact**
-- Email: marcus.harris@uconn.edu
-- <span class="contact-line">GitHub: https://github.com/MarcusHarrisUConn</span>
+<div class="contact-item">Email: marcus.harris@uconn.edu</div>
+<div class="contact-item">GitHub: https://github.com/MarcusHarrisUConn</div>
