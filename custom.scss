@@ -145,13 +145,18 @@ table th, table td {
 }
 
 .quarto-listing-container .listing-title,
-.quarto-listing-container .listing-title a {
+.quarto-listing-container .listing-title a,
+.quarto-listing-container .listing-title .listing-title,
+.quarto-listing-container .listing-title .listing-title a,
+.quarto-post .body .listing-title,
+.quarto-post .body .listing-title a {
   color: var(--ink) !important;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
-.quarto-listing-container .listing-title a:hover {
+.quarto-listing-container .listing-title a:hover,
+.quarto-post .body .listing-title a:hover {
   color: var(--accent) !important;
 }
 
@@ -159,11 +164,15 @@ table th, table td {
 .quarto-listing-container .listing-description,
 .quarto-listing-container .listing-date,
 .quarto-listing-container .listing-author,
-.quarto-listing-container .listing-categories {
+.quarto-listing-container .listing-categories,
+.quarto-post .body .description,
+.quarto-post .metadata,
+.quarto-post .metadata * {
   color: var(--ink) !important;
 }
 
-.quarto-listing-container .listing-category {
+.quarto-listing-container .listing-category,
+.quarto-post .listing-categories .listing-category {
   color: var(--ink) !important;
   border: 1px solid var(--accent) !important;
   background: transparent !important;
