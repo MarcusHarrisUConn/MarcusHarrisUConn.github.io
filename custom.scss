@@ -171,6 +171,11 @@ table th, table td {
   color: var(--ink) !important;
 }
 
+.quarto-post .body p,
+.quarto-post .body p * {
+  color: var(--ink) !important;
+}
+
 .quarto-listing-container .listing-category,
 .quarto-post .listing-categories .listing-category {
   color: var(--ink) !important;
