@@ -45,6 +45,11 @@ body {
   background: linear-gradient(90deg, rgba(124,245,195,0.15), rgba(124,245,195,0.03));
 }
 
+.contact-line {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 a {
   color: var(--accent);
   text-decoration: underline;
