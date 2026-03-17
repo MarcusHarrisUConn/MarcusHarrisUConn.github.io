@@ -13,37 +13,24 @@ I lead the ReproducibiliBuddy team's code review efforts within ACORN Lab, focus
 <details>
 <summary><strong>Publications</strong></summary>
 
-- Harris, M. (2026). *Title of Paper*. Journal. [PDF](assets/CV.pdf)
-- Harris, M., & Coauthor, A. (2025). *Title of Paper*. Journal.
-
 </details>
 
 <details>
 <summary><strong>Preprints</strong></summary>
-
-- Harris, M. (2026). *Title of Preprint*. Preprint server.
 
 </details>
 
 <details>
 <summary><strong>Code Repositories</strong></summary>
 
-- Measurement Invariance Toolkit - https://github.com/MarcusHarrisUConn/REPO-NAME
-- Reproducible Workflow Rubric - https://github.com/MarcusHarrisUConn/REPO-NAME
-
 </details>
 
 <details>
 <summary><strong>Posters</strong></summary>
 
-- 2026: *Poster Title*, Conference Name. [PDF](assets/CV.pdf)
-
 </details>
 
 <details>
 <summary><strong>Talks</strong></summary>
-
-- 2026: Invited talk on measurement bias, Conference Name
-- 2025: Workshop on reproducible psychometrics, University Name
 
 </details>
