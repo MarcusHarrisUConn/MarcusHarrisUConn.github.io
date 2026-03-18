@@ -1,0 +1,60 @@
+<button
+  id="theme-toggle"
+  class="theme-toggle"
+  type="button"
+  aria-label="Toggle innie and outie mode"
+  aria-pressed="true"
+>
+  <span class="theme-toggle-label">Innie</span>
+  <span class="theme-toggle-track" aria-hidden="true">
+    <span class="theme-toggle-thumb"></span>
+  </span>
+</button>
+
+<script>
+  (function () {
+    var storageKey = "site-theme";
+
+    function getTheme() {
+      try {
+        var stored = localStorage.getItem(storageKey);
+        if (stored === "light" || stored === "dark") {
+          return stored;
+        }
+      } catch (_error) {}
+      return document.documentElement.getAttribute("data-theme") || "dark";
+    }
+
+    function setTheme(theme) {
+      document.documentElement.setAttribute("data-theme", theme);
+      try {
+        localStorage.setItem(storageKey, theme);
+      } catch (_error) {}
+    }
+
+    function syncButton(button, theme) {
+      var label = button.querySelector(".theme-toggle-label");
+      label.textContent = theme === "dark" ? "Innie" : "Outie";
+      button.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+      button.classList.toggle("is-light", theme === "light");
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var button = document.getElementById("theme-toggle");
+      if (!button) {
+        return;
+      }
+
+      var theme = getTheme();
+      setTheme(theme);
+      syncButton(button, theme);
+
+      button.addEventListener("click", function () {
+        var current = getTheme();
+        var next = current === "dark" ? "light" : "dark";
+        setTheme(next);
+        syncButton(button, next);
+      });
+    });
+  })();
+</script>

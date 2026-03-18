@@ -3,9 +3,11 @@ project:
   output-dir: docs
   resources:
     - CNAME
+    - assets
 
 website:
   title: "Marcus Harris"
+  favicon: assets/mh-favicon.jpg
   navbar:
     left:
       - href: profile.qmd
@@ -19,6 +21,10 @@ website:
 
 format:
   html:
+    include-in-header:
+      - theme-head.html
+    include-after-body:
+      - theme-toggle.html
     theme:
       light: [cosmo, custom.scss]
     toc: true

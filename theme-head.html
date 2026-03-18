@@ -1,0 +1,15 @@
+<script>
+  (function () {
+    var storageKey = "site-theme";
+    try {
+      var stored = localStorage.getItem(storageKey);
+      if (stored === "light" || stored === "dark") {
+        document.documentElement.setAttribute("data-theme", stored);
+      } else {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    } catch (_error) {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  })();
+</script>
