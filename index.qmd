@@ -32,7 +32,10 @@ I build tools and theories for reliable measurement in psychology and education.
   <a class="icon-link" href="https://github.com/MarcusHarrisUConn" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub">
     <i class="bi bi-github"></i>
   </a>
-  <a class="icon-link" href="https://orcid.org/0009-0002-7001-1584" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile" title="ORCID">
-    <i class="bi bi-person-badge-fill"></i>
+  <a class="icon-link icon-link-orcid" href="https://orcid.org/0009-0002-7001-1584" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile" title="ORCID">
+    <span class="orcid-wordmark" aria-hidden="true">
+      <span class="orcid-disc">iD</span>
+      <span class="orcid-text">ORCID</span>
+    </span>
   </a>
 </div>

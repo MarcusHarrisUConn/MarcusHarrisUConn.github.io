@@ -123,6 +123,56 @@ html[data-theme="light"] body {
   color: #08221d !important;
 }
 
+.icon-link-orcid {
+  width: auto;
+  min-width: 5.75rem;
+  padding: 0 0.8rem;
+  border-color: #a6ce39;
+}
+
+.icon-link-orcid:hover,
+.icon-link-orcid:focus {
+  background: #a6ce39;
+  color: #0b1d18 !important;
+}
+
+.orcid-wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.orcid-disc {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.45rem;
+  height: 1.45rem;
+  border-radius: 999px;
+  background: #a6ce39;
+  color: #0b1d18;
+  font-size: 0.72rem;
+  letter-spacing: -0.03em;
+}
+
+.orcid-text {
+  color: #d9d9d9;
+}
+
+.icon-link-orcid:hover .orcid-disc,
+.icon-link-orcid:focus .orcid-disc {
+  background: #0b1d18;
+  color: #a6ce39;
+}
+
+.icon-link-orcid:hover .orcid-text,
+.icon-link-orcid:focus .orcid-text {
+  color: #0b1d18;
+}
+
 a {
   color: var(--accent);
   text-decoration: underline;
@@ -155,44 +205,6 @@ a:focus {
 
 .quarto-navbar-tools a {
   color: var(--ink) !important;
-}
-
-.quarto-color-scheme-toggle {
-  position: relative;
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
-  width: 3.4rem;
-  height: 1.9rem;
-  padding: 0 !important;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: rgba(0, 0, 0, 0.22);
-  color: transparent !important;
-  text-decoration: none !important;
-}
-
-.quarto-color-scheme-toggle::before {
-  content: "";
-  position: absolute;
-  inset: 0.22rem auto 0.22rem 0.24rem;
-  width: 1.1rem;
-  border-radius: 999px;
-  background: var(--accent);
-  transition: transform 160ms ease;
-}
-
-.quarto-color-scheme-toggle.alternate::before {
-  transform: translateX(1.45rem);
-}
-
-.quarto-color-scheme-toggle .bi::before {
-  content: "";
-}
-
-.quarto-color-scheme-toggle:hover,
-.quarto-color-scheme-toggle:focus {
-  border-color: var(--accent);
 }
 
 .navbar-nav .nav-link {
@@ -373,7 +385,8 @@ details[open] summary::after {
     height: 2.8rem;
   }
 
-  .quarto-navbar-tools {
-    margin-top: 0.5rem;
+  .icon-link-orcid {
+    min-width: 5rem;
+    padding: 0 0.65rem;
   }
 }
