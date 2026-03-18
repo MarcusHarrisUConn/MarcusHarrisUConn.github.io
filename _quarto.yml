@@ -10,12 +10,12 @@ website:
   favicon: assets/mh-favicon.jpg
   navbar:
     left:
-      - href: essays.qmd
-        text: Essays
       - href: research.qmd
         text: Research
       - href: cv.qmd
         text: CV
+      - href: essays.qmd
+        text: Essays
 
 format:
   html:
