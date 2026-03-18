@@ -25,6 +25,9 @@ I build tools and theories for reliable measurement in psychology and education.
 - [View the CV page](cv.qmd)
 - [Download CV (PDF)](assets/CV.pdf)
 
-**Contact**
-<div class="contact-item">Email: marcus.harris@uconn.edu</div>
-<div class="contact-item">GitHub: https://github.com/MarcusHarrisUConn</div>
+:::{.link-strip}
+[Email](mailto:marcus.harris@uconn.edu){.link-chip}
+[GitHub](https://github.com/MarcusHarrisUConn){.link-chip target="_blank" rel="noopener noreferrer"}
+[Website](https://MarcusHarrisPhD.com){.link-chip target="_blank" rel="noopener noreferrer"}
+[ORCID](https://orcid.org/0009-0002-7001-1584){.link-chip target="_blank" rel="noopener noreferrer"}
+:::

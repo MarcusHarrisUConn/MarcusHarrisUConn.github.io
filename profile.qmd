@@ -6,6 +6,9 @@ title: "Profile"
 
 Marcus Harris is a PhD candidate in Research Methods, Measurement, and Evaluation, at the University of Connecticut, whose work sits at the intersection of psychology, meta-research, and computational reproducibility. His research examines how scientific knowledge is produced through code, statistical workflows, and research infrastructures, with the goal of improving the credibility and transparency of computational science. He develops theoretical frameworks and evaluation tools for assessing research code, including rubric-based approaches for evaluating reproducible statistical workflows. His broader program of research advances a systems-level approach to scientific practice, integrating computational epistemology, evaluation theory, and meta-science to design more trustworthy research ecosystems.
 
-**Contact**
-<div class="contact-item">Email: marcus.harris@uconn.edu</div>
-<div class="contact-item">GitHub: https://github.com/MarcusHarrisUConn</div>
+:::{.link-strip}
+[Email](mailto:marcus.harris@uconn.edu){.link-chip}
+[GitHub](https://github.com/MarcusHarrisUConn){.link-chip target="_blank" rel="noopener noreferrer"}
+[Website](https://MarcusHarrisPhD.com){.link-chip target="_blank" rel="noopener noreferrer"}
+[ORCID](https://orcid.org/0009-0002-7001-1584){.link-chip target="_blank" rel="noopener noreferrer"}
+:::
