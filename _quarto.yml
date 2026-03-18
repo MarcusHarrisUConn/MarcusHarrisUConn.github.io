@@ -10,8 +10,6 @@ website:
   favicon: assets/mh-favicon.jpg
   navbar:
     left:
-      - href: profile.qmd
-        text: Profile
       - href: essays.qmd
         text: Essays
       - href: research.qmd

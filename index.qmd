@@ -15,9 +15,6 @@ He builds tools and theoretical frameworks for evaluating research code, reprodu
 :::
 :::
 
-**Profile**
-- [View my profile](profile.qmd)
-
 **Research Focus**
 - Computational reproducibility and evaluation of research code
 - Meta-research on scientific practices, incentives, and methodology
