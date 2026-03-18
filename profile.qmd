@@ -13,9 +13,6 @@ Marcus Harris is a PhD candidate in Research Methods, Measurement, and Evaluatio
   <a class="icon-link" href="https://github.com/MarcusHarrisUConn" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub">
     <i class="bi bi-github"></i>
   </a>
-  <a class="icon-link" href="https://MarcusHarrisPhD.com" target="_blank" rel="noopener noreferrer" aria-label="Personal website" title="Website">
-    <i class="bi bi-globe2"></i>
-  </a>
   <a class="icon-link" href="https://orcid.org/0009-0002-7001-1584" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile" title="ORCID">
     <i class="bi bi-person-badge-fill"></i>
   </a>
