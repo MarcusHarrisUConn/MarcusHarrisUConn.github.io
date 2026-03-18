@@ -96,6 +96,33 @@ html[data-theme="light"] body {
   color: #08221d !important;
 }
 
+.icon-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 1.5rem;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.22);
+  color: var(--ink) !important;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background: var(--accent);
+  color: #08221d !important;
+}
+
 a {
   color: var(--accent);
   text-decoration: underline;
@@ -130,51 +157,42 @@ a:focus {
   color: var(--ink) !important;
 }
 
-.theme-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  padding: 0.35rem 0.55rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: transparent;
-  color: var(--ink);
-}
-
-.theme-toggle:hover,
-.theme-toggle:focus {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-
-.theme-toggle-track {
+.quarto-color-scheme-toggle {
   position: relative;
-  width: 2.4rem;
-  height: 1.2rem;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 3.4rem;
+  height: 1.9rem;
+  padding: 0 !important;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: rgba(0, 0, 0, 0.22);
+  color: transparent !important;
+  text-decoration: none !important;
 }
 
-.theme-toggle-thumb {
+.quarto-color-scheme-toggle::before {
+  content: "";
   position: absolute;
-  top: 0.1rem;
-  left: 0.1rem;
-  width: 0.8rem;
-  height: 0.8rem;
+  inset: 0.22rem auto 0.22rem 0.24rem;
+  width: 1.1rem;
   border-radius: 999px;
   background: var(--accent);
   transition: transform 160ms ease;
 }
 
-html[data-theme="light"] .theme-toggle-thumb {
-  transform: translateX(1.2rem);
+.quarto-color-scheme-toggle.alternate::before {
+  transform: translateX(1.45rem);
 }
 
-.theme-toggle-label {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+.quarto-color-scheme-toggle .bi::before {
+  content: "";
+}
+
+.quarto-color-scheme-toggle:hover,
+.quarto-color-scheme-toggle:focus {
+  border-color: var(--accent);
 }
 
 .navbar-nav .nav-link {
@@ -350,11 +368,12 @@ details[open] summary::after {
     width: 100%;
   }
 
-  .quarto-navbar-tools {
-    margin-top: 0.5rem;
+  .icon-link {
+    width: 2.8rem;
+    height: 2.8rem;
   }
 
-  .theme-toggle-label {
-    display: none;
+  .quarto-navbar-tools {
+    margin-top: 0.5rem;
   }
 }

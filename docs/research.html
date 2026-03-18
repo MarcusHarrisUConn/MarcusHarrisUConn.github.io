@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c993c4918ffdd4889c977f1bc9fbe9db.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-bfef16dc906664b6c2d9e5a252f1a4bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-c993c4918ffdd4889c977f1bc9fbe9db.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ef01c6495d9a95929140d365e82dfd0c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-47169e16bbbf16c3263d0558864c56c7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ef01c6495d9a95929140d365e82dfd0c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -359,89 +359,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
-(function () {
-  var storageKey = "site-theme";
-
-  function getStoredTheme() {
-    try {
-      return localStorage.getItem(storageKey);
-    } catch (_error) {
-      return null;
-    }
-  }
-
-  function setStoredTheme(theme) {
-    try {
-      localStorage.setItem(storageKey, theme);
-    } catch (_error) {
-      return;
-    }
-  }
-
-  function getPreferredTheme() {
-    var stored = getStoredTheme();
-    if (stored === "light" || stored === "dark") {
-      return stored;
-    }
-    return "dark";
-  }
-
-  function applyTheme(theme) {
-    document.documentElement.setAttribute("data-theme", theme);
-    document.body.classList.toggle("quarto-dark", theme === "dark");
-    document.body.classList.toggle("quarto-light", theme === "light");
-    document.querySelectorAll("[data-bs-theme]").forEach(function (node) {
-      node.setAttribute("data-bs-theme", theme);
-    });
-  }
-
-  function renderToggle(theme) {
-    var tools = document.querySelector(".quarto-navbar-tools");
-    if (!tools || document.querySelector(".theme-toggle")) {
-      return;
-    }
-
-    var button = document.createElement("button");
-    button.type = "button";
-    button.className = "theme-toggle";
-    button.setAttribute("aria-label", "Toggle light and dark mode");
-
-    var label = document.createElement("span");
-    label.className = "theme-toggle-label";
-
-    var track = document.createElement("span");
-    track.className = "theme-toggle-track";
-
-    var thumb = document.createElement("span");
-    thumb.className = "theme-toggle-thumb";
-    track.appendChild(thumb);
-
-    button.appendChild(label);
-    button.appendChild(track);
-
-    function sync(nextTheme) {
-      label.textContent = nextTheme === "dark" ? "Dark" : "Light";
-      button.setAttribute("aria-pressed", nextTheme === "dark" ? "true" : "false");
-    }
-
-    button.addEventListener("click", function () {
-      var current = document.documentElement.getAttribute("data-theme") || "dark";
-      var next = current === "dark" ? "light" : "dark";
-      applyTheme(next);
-      setStoredTheme(next);
-      sync(next);
-    });
-
-    sync(theme);
-    tools.prepend(button);
-  }
-
-  document.addEventListener("DOMContentLoaded", function () {
-    var theme = getPreferredTheme();
-    applyTheme(theme);
-    renderToggle(theme);
-  });
-})();
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

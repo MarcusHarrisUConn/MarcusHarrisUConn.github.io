@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c993c4918ffdd4889c977f1bc9fbe9db.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-bfef16dc906664b6c2d9e5a252f1a4bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-c993c4918ffdd4889c977f1bc9fbe9db.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ef01c6495d9a95929140d365e82dfd0c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-47169e16bbbf16c3263d0558864c56c7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ef01c6495d9a95929140d365e82dfd0c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -327,96 +327,13 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Current Work</strong> - Developing a rubric to evaluate reproducible statistical code - Studying how researchers interpret and apply reproducibility standards - Building open teaching materials for reproducible computational research</p>
 <p><strong>Essays</strong> - <a href="./essays.html">Read the essays</a></p>
 <p><strong>CV</strong> - <a href="./cv.html">View the CV page</a> - <a href="assets/CV.pdf">Download CV (PDF)</a></p>
-<div class="link-strip">
-<p><a href="mailto:marcus.harris@uconn.edu" class="link-chip">Email</a> <a href="https://github.com/MarcusHarrisUConn" class="link-chip" target="_blank" rel="noopener noreferrer">GitHub</a> <a href="https://MarcusHarrisPhD.com" class="link-chip" target="_blank" rel="noopener noreferrer">Website</a> <a href="https://orcid.org/0009-0002-7001-1584" class="link-chip" target="_blank" rel="noopener noreferrer">ORCID</a></p>
+<div class="icon-links" aria-label="Homepage links">
+<p><a class="icon-link" href="mailto:marcus.harris@uconn.edu" aria-label="Email Marcus Harris" title="Email"> <i class="bi bi-envelope-fill"></i> </a> <a class="icon-link" href="https://github.com/MarcusHarrisUConn" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub"> <i class="bi bi-github"></i> </a> <a class="icon-link" href="https://MarcusHarrisPhD.com" target="_blank" rel="noopener noreferrer" aria-label="Personal website" title="Website"> <i class="bi bi-globe2"></i> </a> <a class="icon-link" href="https://orcid.org/0009-0002-7001-1584" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile" title="ORCID"> <i class="bi bi-person-badge-fill"></i> </a></p>
 </div>
 
 
 
 </main> <!-- /main -->
-(function () {
-  var storageKey = "site-theme";
-
-  function getStoredTheme() {
-    try {
-      return localStorage.getItem(storageKey);
-    } catch (_error) {
-      return null;
-    }
-  }
-
-  function setStoredTheme(theme) {
-    try {
-      localStorage.setItem(storageKey, theme);
-    } catch (_error) {
-      return;
-    }
-  }
-
-  function getPreferredTheme() {
-    var stored = getStoredTheme();
-    if (stored === "light" || stored === "dark") {
-      return stored;
-    }
-    return "dark";
-  }
-
-  function applyTheme(theme) {
-    document.documentElement.setAttribute("data-theme", theme);
-    document.body.classList.toggle("quarto-dark", theme === "dark");
-    document.body.classList.toggle("quarto-light", theme === "light");
-    document.querySelectorAll("[data-bs-theme]").forEach(function (node) {
-      node.setAttribute("data-bs-theme", theme);
-    });
-  }
-
-  function renderToggle(theme) {
-    var tools = document.querySelector(".quarto-navbar-tools");
-    if (!tools || document.querySelector(".theme-toggle")) {
-      return;
-    }
-
-    var button = document.createElement("button");
-    button.type = "button";
-    button.className = "theme-toggle";
-    button.setAttribute("aria-label", "Toggle light and dark mode");
-
-    var label = document.createElement("span");
-    label.className = "theme-toggle-label";
-
-    var track = document.createElement("span");
-    track.className = "theme-toggle-track";
-
-    var thumb = document.createElement("span");
-    thumb.className = "theme-toggle-thumb";
-    track.appendChild(thumb);
-
-    button.appendChild(label);
-    button.appendChild(track);
-
-    function sync(nextTheme) {
-      label.textContent = nextTheme === "dark" ? "Dark" : "Light";
-      button.setAttribute("aria-pressed", nextTheme === "dark" ? "true" : "false");
-    }
-
-    button.addEventListener("click", function () {
-      var current = document.documentElement.getAttribute("data-theme") || "dark";
-      var next = current === "dark" ? "light" : "dark";
-      applyTheme(next);
-      setStoredTheme(next);
-      sync(next);
-    });
-
-    sync(theme);
-    tools.prepend(button);
-  }
-
-  document.addEventListener("DOMContentLoaded", function () {
-    var theme = getPreferredTheme();
-    applyTheme(theme);
-    renderToggle(theme);
-  });
-})();
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

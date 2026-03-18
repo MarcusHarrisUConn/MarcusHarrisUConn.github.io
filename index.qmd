@@ -25,9 +25,17 @@ I build tools and theories for reliable measurement in psychology and education.
 - [View the CV page](cv.qmd)
 - [Download CV (PDF)](assets/CV.pdf)
 
-:::{.link-strip}
-[Email](mailto:marcus.harris@uconn.edu){.link-chip}
-[GitHub](https://github.com/MarcusHarrisUConn){.link-chip target="_blank" rel="noopener noreferrer"}
-[Website](https://MarcusHarrisPhD.com){.link-chip target="_blank" rel="noopener noreferrer"}
-[ORCID](https://orcid.org/0009-0002-7001-1584){.link-chip target="_blank" rel="noopener noreferrer"}
-:::
+<div class="icon-links" aria-label="Homepage links">
+  <a class="icon-link" href="mailto:marcus.harris@uconn.edu" aria-label="Email Marcus Harris" title="Email">
+    <i class="bi bi-envelope-fill"></i>
+  </a>
+  <a class="icon-link" href="https://github.com/MarcusHarrisUConn" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub">
+    <i class="bi bi-github"></i>
+  </a>
+  <a class="icon-link" href="https://MarcusHarrisPhD.com" target="_blank" rel="noopener noreferrer" aria-label="Personal website" title="Website">
+    <i class="bi bi-globe2"></i>
+  </a>
+  <a class="icon-link" href="https://orcid.org/0009-0002-7001-1584" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile" title="ORCID">
+    <i class="bi bi-person-badge-fill"></i>
+  </a>
+</div>
