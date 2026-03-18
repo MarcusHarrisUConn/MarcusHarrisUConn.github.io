@@ -74,6 +74,35 @@ html[data-theme="light"] body {
   opacity: 0.35;
 }
 
+.home-hero {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  background: rgba(0, 0, 0, 0.18);
+  box-shadow: 0 0 18px rgba(0, 242, 255, 0.08);
+  position: relative;
+}
+
+.home-hero-image p,
+.home-hero-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.home-hero-image img {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+}
+
+.home-hero-copy {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
 .contact-item {
   display: block;
   margin-bottom: 0.35rem;
@@ -463,6 +492,15 @@ html[data-theme="light"] .theme-toggle-thumb {
 @media (max-width: 768px) {
   .content {
     padding: 1.25rem;
+  }
+
+  .home-hero {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .home-hero-image img {
+    max-width: 220px;
   }
 
   .link-chip {

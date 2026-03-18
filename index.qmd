@@ -3,7 +3,17 @@ title: "Marcus Harris"
 subtitle: "Psychometrics - Meta-Research - Measurement"
 ---
 
-I build tools and theories for reliable measurement in psychology and education. My work focuses on psychometric modeling, meta-research, and open, reproducible methods.
+::: {.home-hero}
+::: {.home-hero-image}
+![](assets/headshot.jpg){fig-alt="Headshot of Marcus Harris"}
+:::
+
+::: {.home-hero-copy}
+Marcus Harris is a PhD candidate in Research Methods, Measurement, and Evaluation at the University of Connecticut. His work sits at the intersection of psychology, meta-research, and computational reproducibility.
+
+He builds tools and theoretical frameworks for evaluating research code, reproducible workflows, and scientific infrastructure.
+:::
+:::
 
 **Profile**
 - [View my profile](profile.qmd)
