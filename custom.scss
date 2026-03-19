@@ -76,7 +76,7 @@ html[data-theme="light"] body {
 
 .home-hero {
   display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
+  grid-template-columns: 220px minmax(0, 1fr);
   gap: 1.5rem;
   align-items: start;
   margin-bottom: 2rem;
@@ -92,15 +92,26 @@ html[data-theme="light"] body {
   margin-bottom: 0;
 }
 
+.home-hero-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
 .home-hero-image img {
   display: block;
   width: 100%;
-  max-width: 240px;
+  max-width: 200px;
 }
 
 .home-hero-copy {
   font-size: 1rem;
   line-height: 1.7;
+}
+
+.home-hero-links {
+  margin-top: 0;
 }
 
 .contact-item {
@@ -500,7 +511,7 @@ html[data-theme="light"] .theme-toggle-thumb {
   }
 
   .home-hero-image img {
-    max-width: 220px;
+    max-width: 180px;
   }
 
   .link-chip {

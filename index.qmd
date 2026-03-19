@@ -6,6 +6,21 @@ subtitle: "Psychometrics - Meta-Research - Measurement"
 ::: {.home-hero}
 ::: {.home-hero-image}
 ![](assets/headshot.jpg){fig-alt="Headshot of Marcus Harris"}
+
+<div class="icon-links home-hero-links" aria-label="Homepage links">
+  <a class="icon-link" href="mailto:marcus.harris@uconn.edu" aria-label="Email Marcus Harris" title="Email">
+    <i class="bi bi-envelope-fill"></i>
+  </a>
+  <a class="icon-link" href="https://github.com/MarcusHarrisUConn" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub">
+    <i class="bi bi-github"></i>
+  </a>
+  <a class="icon-link icon-link-orcid" href="https://orcid.org/0009-0002-7001-1584" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile" title="ORCID">
+    <span class="orcid-wordmark" aria-hidden="true">
+      <span class="orcid-disc">iD</span>
+      <span class="orcid-text">ORCID</span>
+    </span>
+  </a>
+</div>
 :::
 
 ::: {.home-hero-copy}
@@ -31,18 +46,3 @@ He builds tools and theoretical frameworks for evaluating research code, reprodu
 **CV**
 - [View the CV page](cv.qmd)
 - [Download CV (PDF)](assets/CV.pdf)
-
-<div class="icon-links" aria-label="Homepage links">
-  <a class="icon-link" href="mailto:marcus.harris@uconn.edu" aria-label="Email Marcus Harris" title="Email">
-    <i class="bi bi-envelope-fill"></i>
-  </a>
-  <a class="icon-link" href="https://github.com/MarcusHarrisUConn" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub">
-    <i class="bi bi-github"></i>
-  </a>
-  <a class="icon-link icon-link-orcid" href="https://orcid.org/0009-0002-7001-1584" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile" title="ORCID">
-    <span class="orcid-wordmark" aria-hidden="true">
-      <span class="orcid-disc">iD</span>
-      <span class="orcid-text">ORCID</span>
-    </span>
-  </a>
-</div>
