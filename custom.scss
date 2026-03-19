@@ -118,6 +118,7 @@ html[data-theme="light"] body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
   width: 180px;
   margin-top: 0.55rem;
   gap: 0.6rem;
@@ -140,19 +141,28 @@ html[data-theme="light"] body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.7rem;
-  height: 1.7rem;
+  width: 1.85rem;
+  height: 1.85rem;
   border-radius: 999px;
   background: #a6ce39;
+}
+
+.home-hero-orcid-inner {
   color: #0b1d18;
-  font-size: 0.76rem;
+  font-size: 0.74rem;
   font-weight: 700;
-  letter-spacing: -0.03em;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  transform: translateY(-0.02rem);
 }
 
 .home-hero-orcid:hover .home-hero-orcid-mark,
 .home-hero-orcid:focus .home-hero-orcid-mark {
   background: #0b1d18;
+}
+
+.home-hero-orcid:hover .home-hero-orcid-inner,
+.home-hero-orcid:focus .home-hero-orcid-inner {
   color: #a6ce39;
 }
 
