@@ -76,8 +76,8 @@ html[data-theme="light"] body {
 
 .home-hero {
   display: grid;
-  grid-template-columns: 180px minmax(0, 1fr);
-  gap: 1.25rem;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 1.1rem;
   align-items: start;
   margin-bottom: 2rem;
   padding: 1.25rem;
@@ -93,13 +93,16 @@ html[data-theme="light"] body {
 }
 
 .home-hero-image {
+  display: flex;
+  flex-direction: column;
   align-self: start;
+  width: 100%;
 }
 
 .home-hero-image img {
   display: block;
   width: 100%;
-  max-width: 170px;
+  max-width: 180px;
 }
 
 .home-hero-copy {
@@ -108,8 +111,43 @@ html[data-theme="light"] body {
 }
 
 .home-hero-links {
-  margin-top: 1rem;
-  gap: 0.7rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 180px;
+  margin-top: 0.8rem;
+  gap: 0.55rem;
+}
+
+.home-hero-links .icon-link,
+.home-hero-links .icon-link-orcid {
+  width: 100%;
+  min-width: 0;
+  height: 2.85rem;
+  padding: 0;
+}
+
+.home-hero-orcid {
+  border-color: #a6ce39;
+}
+
+.home-hero-orcid-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 999px;
+  background: #a6ce39;
+  color: #0b1d18;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.home-hero-orcid:hover .home-hero-orcid-mark,
+.home-hero-orcid:focus .home-hero-orcid-mark {
+  background: #0b1d18;
+  color: #a6ce39;
 }
 
 .contact-item {
@@ -510,6 +548,10 @@ html[data-theme="light"] .theme-toggle-thumb {
 
   .home-hero-image img {
     max-width: 170px;
+  }
+
+  .home-hero-links {
+    width: 170px;
   }
 
   .link-chip {

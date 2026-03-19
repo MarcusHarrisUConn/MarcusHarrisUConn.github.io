@@ -6,12 +6,6 @@ subtitle: "Psychometrics - Meta-Research - Measurement"
 ::: {.home-hero}
 ::: {.home-hero-image}
 ![](assets/headshot.jpg){fig-alt="Headshot of Marcus Harris"}
-:::
-
-::: {.home-hero-copy}
-Marcus Harris is a PhD candidate in Research Methods, Measurement, and Evaluation at the University of Connecticut. His work sits at the intersection of psychology, meta-research, and computational reproducibility.
-
-He builds tools and theoretical frameworks for evaluating research code, reproducible workflows, and scientific infrastructure.
 
 <div class="icon-links home-hero-links" aria-label="Homepage links">
   <a class="icon-link" href="mailto:marcus.harris@uconn.edu" aria-label="Email Marcus Harris" title="Email">
@@ -20,13 +14,16 @@ He builds tools and theoretical frameworks for evaluating research code, reprodu
   <a class="icon-link" href="https://github.com/MarcusHarrisUConn" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub">
     <i class="bi bi-github"></i>
   </a>
-  <a class="icon-link icon-link-orcid" href="https://orcid.org/0009-0002-7001-1584" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile" title="ORCID">
-    <span class="orcid-wordmark" aria-hidden="true">
-      <span class="orcid-disc">iD</span>
-      <span class="orcid-text">ORCID</span>
-    </span>
+  <a class="icon-link icon-link-orcid home-hero-orcid" href="https://orcid.org/0009-0002-7001-1584" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile" title="ORCID">
+    <span class="home-hero-orcid-mark" aria-hidden="true">iD</span>
   </a>
 </div>
+:::
+
+::: {.home-hero-copy}
+Marcus Harris is a PhD candidate in Research Methods, Measurement, and Evaluation at the University of Connecticut. His work sits at the intersection of psychology, meta-research, and computational reproducibility.
+
+He builds tools and theoretical frameworks for evaluating research code, reproducible workflows, and scientific infrastructure.
 :::
 :::
 
