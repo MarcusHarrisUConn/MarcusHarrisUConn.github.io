@@ -133,6 +133,13 @@ html[data-theme="light"] body {
   border-radius: 999px;
 }
 
+.home-hero-links .icon-link-orcid {
+  width: 3rem !important;
+  min-width: 3rem !important;
+  padding: 0 !important;
+  margin-left: 0.1rem;
+}
+
 .home-hero-orcid {
   border-color: #a6ce39;
 }
@@ -569,6 +576,10 @@ html[data-theme="light"] .theme-toggle-thumb {
   .home-hero-links {
     width: 170px;
     gap: 0.5rem;
+  }
+
+  .home-hero-links .icon-link-orcid {
+    margin-left: 0;
   }
 
   .link-chip {

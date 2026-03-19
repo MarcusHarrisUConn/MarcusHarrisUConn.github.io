@@ -6,7 +6,7 @@ My research examines how scientific knowledge is produced through code, statisti
 
 **ReproducibiliBuddy Team (ACORN Lab)**
 
-![](assets/acorn-logo.png){width=180px}
+![](assets/acorn-logo.png){width=110px}
 
 I lead the ReproducibiliBuddy team's code review efforts within ACORN Lab, focusing on reproducible workflows, evaluation rubrics, and practical guidance for transparent computational research.
 
