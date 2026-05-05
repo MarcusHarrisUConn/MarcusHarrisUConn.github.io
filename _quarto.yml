@@ -12,6 +12,8 @@ website:
     left:
       - href: research.qmd
         text: Research
+      - href: https://marcusharrisphd.com/mlmr/
+        text: Software
       - href: cv.qmd
         text: CV
       - href: essays.qmd
