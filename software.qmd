@@ -1,0 +1,33 @@
+---
+title: "Software"
+---
+
+I build open-source tools for research methods, reproducible workflows, and
+statistical reporting. This page collects software projects that are ready for
+demo, feedback, teaching, or broader use.
+
+## mlmr
+
+`mlmr` is an R package and Shiny app for fitting, understanding, and reporting
+mixed-effects and multilevel models. It is designed for researchers,
+instructors, graduate students, and applied analysts who want a guided
+model-building workflow without giving up transparent R code.
+
+The app uses `lme4` under the hood and supports model setup, centering choices,
+fixed and random effects, interaction terms, APA-style tables, equations,
+diagnostics, and reproducible exports.
+
+- [Open the mlmr documentation site](https://marcusharrisphd.com/mlmr/)
+- [View the GitHub repository](https://github.com/MarcusHarrisUConn/mlmr)
+- [Report issues or give beta feedback](https://github.com/MarcusHarrisUConn/mlmr/issues)
+
+```r
+install.packages("pak")
+pak::pak("MarcusHarrisUConn/mlmr")
+mlmr::run_mlmr()
+```
+
+## Future Projects
+
+Additional research software, reproducibility tools, and teaching apps will be
+added here as they become ready for public testing.
