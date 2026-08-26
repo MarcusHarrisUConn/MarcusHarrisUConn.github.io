@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "profile.html",
+    "href": "profile.html",
+    "title": "Redirecting",
+    "section": "",
+    "text": "If you are not redirected automatically, go to the homepage."
+  },
+  {
     "objectID": "software.html",
     "href": "software.html",
     "title": "Software",
@@ -21,25 +28,11 @@
     "text": "Future Projects\nAdditional research software, reproducibility tools, and teaching apps will be added here as they become ready for public testing."
   },
   {
-    "objectID": "profile.html",
-    "href": "profile.html",
-    "title": "Redirecting",
-    "section": "",
-    "text": "If you are not redirected automatically, go to the homepage."
-  },
-  {
     "objectID": "essays.html",
     "href": "essays.html",
     "title": "Essays",
     "section": "",
     "text": "Short essays on measurement, methods, and the craft of research.\n\n\n\n\n\n\n\n\n\nOn Measurement as Infrastructure\n\n\n\nmeasurement\n\nmeta-research\n\n\n\nWhy measurement theory is the hidden scaffolding of empirical science.\n\n\n\n\n\nMar 12, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "Download CV (PDF)"
   },
   {
     "objectID": "essays/measurement-infrastructure.html",
@@ -49,6 +42,13 @@
     "text": "Measurement is not a sidebar to science - it is the infrastructure that makes discovery legible. When we get measurement wrong, we silently corrupt every downstream inference.\nThis essay outlines a pragmatic view of measurement: treat it as a public good, document its assumptions, and design it for reuse."
   },
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research examines how scientific knowledge is produced through code, statistical workflows, and research infrastructures, with the goal of improving the credibility and transparency of computational science. I develop theoretical frameworks and evaluation tools for assessing research code, including rubric-based approaches for evaluating reproducible statistical workflows. My broader program advances a systems-level approach to scientific practice, integrating computational epistemology, evaluation theory, and meta-science.\nReproducibiliBuddy Team (ACORN Lab)\n\nI lead the ReproducibiliBuddy team’s code review efforts within ACORN Lab, focusing on reproducible workflows, evaluation rubrics, and practical guidance for transparent computational research.\n\n\nPublications\n\n\nHarris, M.A., & McCoach, D.B. (2025). Classify with Caution: An illustrative Example Using Mixture Models and Machine Learning. Journal of Research in Personality.\n\n\n\n\nPreprints\n\n\n\n\nCode Repositories\n\n\n\n\nPosters\n\n\n\n\nTalks\n\n\nHarris, M.A. (2025). Open Science Conversations � Fall 2025 Brown Bag. University of Connecticut Language and Cognition Psychology program, Storrs, CT."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Marcus Harris",
@@ -56,10 +56,10 @@
     "text": "iD  \n\n\n\nMarcus Harris is a PhD candidate in Research Methods, Measurement, and Evaluation at the University of Connecticut. His work sits at the intersection of psychology, meta-research, and computational reproducibility.\nHe builds tools and theoretical frameworks for evaluating research code, reproducible workflows, and scientific infrastructure.\n\n\nResearch Focus - Computational reproducibility and evaluation of research code - Meta-research on scientific practices, incentives, and methodology - Simulation-based methods and psychometric evaluation\nCurrent Work - Developing a rubric to evaluate reproducible statistical code - Studying how researchers interpret and apply reproducibility standards - Building open teaching materials for reproducible computational research\nEssays - Read the essays\nCV - View the CV page - Download CV (PDF)"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
     "section": "",
-    "text": "My research examines how scientific knowledge is produced through code, statistical workflows, and research infrastructures, with the goal of improving the credibility and transparency of computational science. I develop theoretical frameworks and evaluation tools for assessing research code, including rubric-based approaches for evaluating reproducible statistical workflows. My broader program advances a systems-level approach to scientific practice, integrating computational epistemology, evaluation theory, and meta-science.\nReproducibiliBuddy Team (ACORN Lab)\n\nI lead the ReproducibiliBuddy team’s code review efforts within ACORN Lab, focusing on reproducible workflows, evaluation rubrics, and practical guidance for transparent computational research.\n\n\nPublications\n\n\nHarris, M.A., & McCoach, D.B. (2025). Classify with Caution: An illustrative Example Using Mixture Models and Machine Learning. Journal of Research in Personality.\n\n\n\n\nPreprints\n\n\n\n\nCode Repositories\n\n\n\n\nPosters\n\n\n\n\nTalks\n\n\nHarris, M.A. (2025). Open Science Conversations � Fall 2025 Brown Bag. University of Connecticut Language and Cognition Psychology program, Storrs, CT."
+    "text": "Download CV (PDF)"
   }
 ]

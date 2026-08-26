@@ -465,6 +465,32 @@ table th, table td {
   border-color: var(--accent);
 }
 
+.cv-viewer {
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+.cv-viewer p {
+  margin: 0;
+}
+
+.cv-pdf {
+  display: block;
+  width: 100%;
+  min-height: 78vh;
+  height: 1050px;
+  border: 2px solid var(--line);
+  background: #ffffff;
+  box-shadow:
+    0 0 0 2px rgba(0, 242, 255, 0.12),
+    0 12px 28px var(--shadow);
+}
+
+.cv-download {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
 /* Dropdown (details/summary) styling */
 details {
   border: 1px solid var(--line);
