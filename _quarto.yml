@@ -16,8 +16,6 @@ website:
         text: Software
       - href: cv.qmd
         text: CV
-      - href: essays.qmd
-        text: Essays
 
 format:
   html:
