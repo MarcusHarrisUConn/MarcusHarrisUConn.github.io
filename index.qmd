@@ -1,6 +1,6 @@
 ---
 title: "Marcus Harris"
-subtitle: "Psychometrics - Meta-Research - Measurement"
+subtitle: "Computational Credibility - Psychometrics - Meta-Research"
 ---
 
 ::: {.home-hero}
@@ -28,7 +28,7 @@ subtitle: "Psychometrics - Meta-Research - Measurement"
 ::: {.home-hero-copy}
 Marcus Harris is a PhD candidate in Research Methods, Measurement, and Evaluation at the University of Connecticut. His work sits at the intersection of psychology, meta-research, and computational reproducibility.
 
-He builds tools and theoretical frameworks for evaluating research code, reproducible workflows, and scientific infrastructure.
+His emerging research program, [Computational Credibility](research.qmd#computational-credibility), examines how computational practices contribute to, constrain, and justify the credibility of scientific knowledge. He develops conceptual frameworks, methodological approaches, and computational tools for evaluating the evidentiary foundations of research.
 :::
 :::
 

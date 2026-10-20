@@ -2,7 +2,21 @@
 title: "Research"
 ---
 
-My research examines how scientific knowledge is produced through code, statistical workflows, and research infrastructures, with the goal of improving the credibility and transparency of computational science. I develop theoretical frameworks and evaluation tools for assessing research code, including rubric-based approaches for evaluating reproducible statistical workflows. My broader program advances a systems-level approach to scientific practice, integrating computational epistemology, evaluation theory, and meta-science.
+## Computational Credibility {#computational-credibility}
+
+*An Emerging Research Program*
+
+Scientific knowledge increasingly depends on computational systems that structure how evidence is generated, analyzed, interpreted, and communicated. Statistical software, simulation procedures, automated analytic workflows, and artificial intelligence systems have become integral to contemporary research, expanding the range of questions researchers can investigate and the complexity of evidence they can produce.
+
+However, the credibility of scientific claims cannot be established solely through the correctness of statistical results or the availability of computational code. Computational procedures embody methodological assumptions, analytic decisions, software dependencies, and interpretive judgments that may remain difficult for other researchers to inspect, evaluate, or justify. Moreover, scientific credibility is not exclusively a technical property; it also depends on how evidence is represented, communicated, and evaluated within social and institutional contexts.
+
+**Computational Credibility** is an emerging research program concerned with how computational practices contribute to, constrain, and justify the credibility of scientific knowledge. Within this broader program, **Computational Evidence** focuses on the methodological and validity-related questions surrounding computationally supported inferences, including the transparency, reproducibility, and defensibility of the procedures connecting data, analyses, results, and scientific claims.
+
+Drawing on psychometrics, validity theory, statistical methodology, metascience, and social epistemology, this research aims to develop conceptual frameworks, methodological approaches, and computational tools for evaluating the evidentiary foundations of scientific research.
+
+[Explore current projects and collaborations](projects.qmd) | [Explore research software](software.qmd)
+
+## Research Activities
 
 **ReproducibiliBuddy Team (ACORN Lab)**
 
@@ -35,6 +49,6 @@ I lead the ReproducibiliBuddy team's code review efforts within ACORN Lab, focus
 <details>
 <summary><strong>Talks</strong></summary>
 
-- Harris, M.A. (2025). *Open Science Conversations – Fall 2025 Brown Bag*. University of Connecticut Language and Cognition Psychology program, Storrs, CT.
+- Harris, M.A. (2025). *Open Science Conversations â€“ Fall 2025 Brown Bag*. University of Connecticut Language and Cognition Psychology program, Storrs, CT.
 
 </details>

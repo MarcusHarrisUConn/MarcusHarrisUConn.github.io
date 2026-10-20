@@ -3,8 +3,10 @@ title: "Software"
 ---
 
 I build open-source tools for research methods, reproducible workflows, and
-statistical reporting. This page collects software projects that are ready for
-demo, feedback, teaching, or broader use.
+statistical reporting. These projects contribute to my emerging
+[Computational Credibility research program](research.qmd#computational-credibility)
+by making computational methods and workflows more transparent and open to
+evaluation. Development stages and current capabilities vary by package.
 
 ## mlmr
 
@@ -27,7 +29,54 @@ pak::pak("MarcusHarrisUConn/mlmr")
 mlmr::run_mlmr()
 ```
 
-## Future Projects
+## mcsimr
 
-Additional research software, reproducibility tools, and teaching apps will be
-added here as they become ready for public testing.
+*Monte Carlo simulation design and reporting | Early development*
+
+`mcsimr` is an R package and Shiny workbench for designing, running, and
+reporting Monte Carlo simulation studies in the social and behavioral sciences.
+Its main focus is structural equation modeling with `lavaan`, with OLS
+regression available as a simpler starting point.
+
+Researchers can vary population parameters, sample sizes, estimators,
+missing-data mechanisms, and distributional conditions, then examine
+performance measures such as bias, coverage, power, and convergence.
+The workflow supports reproducible R code, parallel execution, checkpoints,
+and Quarto exports with tables, figures, and reporting materials. The package
+is under active development, and its API may evolve.
+
+- [View the GitHub repository and documentation](https://github.com/MarcusHarrisUConn/mcsimr)
+- [Report issues or give feedback](https://github.com/MarcusHarrisUConn/mcsimr/issues)
+
+```r
+install.packages("remotes")
+remotes::install_github("MarcusHarrisUConn/mcsimr")
+mcsimr::use_mcsimr_app()
+```
+
+## DSEMr
+
+*Dynamic structural equation modeling | Experimental foundation release*
+
+`DSEMr` is an R package under active development for dynamic structural
+equation modeling. It aims to support transparent, reproducible workflows for
+studying time-series relations within people and variation across people,
+including methodological research and Monte Carlo studies.
+
+The current estimation scope covers Gaussian AR(1) models for a single time
+series, with optional contemporaneous covariates, and an experimental two-level
+Gaussian AR(1) model using an R reference engine. The package combines a
+`lavaan`-inspired model language with a Rust numerical backend. Broader latent,
+categorical, and other DSEM model families remain development targets; this
+release is not a general replacement for Mplus.
+
+- [View the GitHub repository and documentation](https://github.com/MarcusHarrisUConn/DSEMr)
+- [View the current model support and validation roadmap](https://github.com/MarcusHarrisUConn/DSEMr/blob/main/docs/PARITY.md)
+- [Report issues or give feedback](https://github.com/MarcusHarrisUConn/DSEMr/issues)
+
+Source installation requires R 4.2 or later and a Rust toolchain with Cargo.
+
+```r
+install.packages("remotes")
+remotes::install_github("MarcusHarrisUConn/DSEMr")
+```

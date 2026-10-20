@@ -175,7 +175,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#mlmr" id="toc-mlmr" class="nav-link active" data-scroll-target="#mlmr">mlmr</a></li>
-  <li><a href="#future-projects" id="toc-future-projects" class="nav-link" data-scroll-target="#future-projects">Future Projects</a></li>
+  <li><a href="#mcsimr" id="toc-mcsimr" class="nav-link" data-scroll-target="#mcsimr">mcsimr</a></li>
+  <li><a href="#dsemr" id="toc-dsemr" class="nav-link" data-scroll-target="#dsemr">DSEMr</a></li>
   </ul>
 </nav>
     </div>
@@ -201,7 +202,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>I build open-source tools for research methods, reproducible workflows, and statistical reporting. This page collects software projects that are ready for demo, feedback, teaching, or broader use.</p>
+<p>I build open-source tools for research methods, reproducible workflows, and statistical reporting. These projects contribute to my emerging <a href="./research.html#computational-credibility">Computational Credibility research program</a> by making computational methods and workflows more transparent and open to evaluation. Development stages and current capabilities vary by package.</p>
 <section id="mlmr" class="level2">
 <h2 class="anchored" data-anchor-id="mlmr">mlmr</h2>
 <p><code>mlmr</code> is an R package and Shiny app for fitting, understanding, and reporting mixed-effects and multilevel models. It is designed for researchers, instructors, graduate students, and applied analysts who want a guided model-building workflow without giving up transparent R code.</p>
@@ -215,9 +216,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>pak<span class="sc">::</span><span class="fu">pak</span>(<span class="st">"MarcusHarrisUConn/mlmr"</span>)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>mlmr<span class="sc">::</span><span class="fu">run_mlmr</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="future-projects" class="level2">
-<h2 class="anchored" data-anchor-id="future-projects">Future Projects</h2>
-<p>Additional research software, reproducibility tools, and teaching apps will be added here as they become ready for public testing.</p>
+<section id="mcsimr" class="level2">
+<h2 class="anchored" data-anchor-id="mcsimr">mcsimr</h2>
+<p><em>Monte Carlo simulation design and reporting | Early development</em></p>
+<p><code>mcsimr</code> is an R package and Shiny workbench for designing, running, and reporting Monte Carlo simulation studies in the social and behavioral sciences. Its main focus is structural equation modeling with <code>lavaan</code>, with OLS regression available as a simpler starting point.</p>
+<p>Researchers can vary population parameters, sample sizes, estimators, missing-data mechanisms, and distributional conditions, then examine performance measures such as bias, coverage, power, and convergence. The workflow supports reproducible R code, parallel execution, checkpoints, and Quarto exports with tables, figures, and reporting materials. The package is under active development, and its API may evolve.</p>
+<ul>
+<li><a href="https://github.com/MarcusHarrisUConn/mcsimr">View the GitHub repository and documentation</a></li>
+<li><a href="https://github.com/MarcusHarrisUConn/mcsimr/issues">Report issues or give feedback</a></li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"remotes"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"MarcusHarrisUConn/mcsimr"</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>mcsimr<span class="sc">::</span><span class="fu">use_mcsimr_app</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="dsemr" class="level2">
+<h2 class="anchored" data-anchor-id="dsemr">DSEMr</h2>
+<p><em>Dynamic structural equation modeling | Experimental foundation release</em></p>
+<p><code>DSEMr</code> is an R package under active development for dynamic structural equation modeling. It aims to support transparent, reproducible workflows for studying time-series relations within people and variation across people, including methodological research and Monte Carlo studies.</p>
+<p>The current estimation scope covers Gaussian AR(1) models for a single time series, with optional contemporaneous covariates, and an experimental two-level Gaussian AR(1) model using an R reference engine. The package combines a <code>lavaan</code>-inspired model language with a Rust numerical backend. Broader latent, categorical, and other DSEM model families remain development targets; this release is not a general replacement for Mplus.</p>
+<ul>
+<li><a href="https://github.com/MarcusHarrisUConn/DSEMr">View the GitHub repository and documentation</a></li>
+<li><a href="https://github.com/MarcusHarrisUConn/DSEMr/blob/main/docs/PARITY.md">View the current model support and validation roadmap</a></li>
+<li><a href="https://github.com/MarcusHarrisUConn/DSEMr/issues">Report issues or give feedback</a></li>
+</ul>
+<p>Source installation requires R 4.2 or later and a Rust toolchain with Cargo.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"remotes"</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"MarcusHarrisUConn/DSEMr"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
