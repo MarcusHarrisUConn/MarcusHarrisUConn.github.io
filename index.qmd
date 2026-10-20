@@ -43,9 +43,6 @@ His emerging research program, [Computational Credibility](research.qmd#computat
 - Studying how researchers interpret and apply reproducibility standards
 - Building open teaching materials for reproducible computational research
 
-**Essays**
-- [Read the essays](essays.qmd)
-
 **CV**
 - [View the CV page](cv.qmd)
 - [Download CV (PDF)](assets/CV.pdf)
