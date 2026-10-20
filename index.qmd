@@ -38,6 +38,7 @@ He builds tools and theoretical frameworks for evaluating research code, reprodu
 - Simulation-based methods and psychometric evaluation
 
 **Current Work**
+- [Current projects and collaborations](projects.qmd)
 - Developing a rubric to evaluate reproducible statistical code
 - Studying how researchers interpret and apply reproducibility standards
 - Building open teaching materials for reproducible computational research

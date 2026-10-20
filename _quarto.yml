@@ -12,6 +12,8 @@ website:
     left:
       - href: research.qmd
         text: Research
+      - href: projects.qmd
+        text: Current Projects
       - href: software.qmd
         text: Software
       - href: cv.qmd
