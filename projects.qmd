@@ -1,40 +1,110 @@
 ---
 title: "Current Projects"
-toc-title: "Projects"
+toc: false
+css: projects.css
 ---
 
-## Missing Data Designs in Monte Carlo Simulation Research: A Systematic Review
+::: {.project-portfolio}
 
-**Collaborator:** Johnny Hudson  
-**Status:** In progress
+<details class="project-row" id="project-1">
+<summary>
+<span class="project-topic">Simulation &amp; missing data</span>
+<div class="project-overview">
+<h2 class="project-question">Do our simulations reflect real-world missing data?</h2>
+<p class="project-deck">Reviewing how statistical simulation studies incorporate missingness, and whether their recommendations reflect applied research.</p>
+<p class="project-collaborators">With Johnny Hudson</p>
+<span class="project-status"><span aria-hidden="true"></span>In progress</span>
+</div>
+<i class="bi bi-chevron-down project-chevron" aria-hidden="true"></i>
+</summary>
+
+::: {.project-description}
+### Missing Data Designs in Monte Carlo Simulation Research: A Systematic Review
 
 Monte Carlo simulation studies provide much of the empirical foundation for evaluating statistical methods, informing recommendations about estimator performance, standard errors, model fit, and statistical inference. These simulations establish how methods perform under specified conditions, and their findings often guide researchers working with complex behavioral, educational, and psychological data. However, real-world datasets are rarely complete, and it remains unclear how frequently methodological simulation studies incorporate missingness into their data-generating conditions. When statistical procedures are evaluated primarily using complete data, their reported performance may not adequately represent the conditions under which applied researchers ultimately use them. This project systematically reviews Monte Carlo simulation studies published in four leading methodological journals: *Psychometrika*, *Psychological Methods*, *Structural Equation Modeling*, and the *Journal of Educational and Behavioral Statistics*. We examine the prevalence of incomplete-data conditions, the treatment of missingness when incorporated, and the correspondence between published simulation descriptions and available computational code. By investigating whether simulation-based methodological recommendations reflect common features of applied research, this review aims to evaluate the ecological relevance, transparency, and evidentiary foundations of statistical simulation research.
+:::
 
-## Generative AI Literacy in Teacher Education: An Integrative Review of Cultural Responsiveness and Voice
+</details>
 
-**Collaborator:** Latesha Watson  
-**Status:** In progress
+<details class="project-row" id="project-2">
+<summary>
+<span class="project-topic">AI &amp; teacher education</span>
+<div class="project-overview">
+<h2 class="project-question">Whose voice counts in AI literacy?</h2>
+<p class="project-deck">Examining how culture, identity, and power shape the critical use of generative AI in teacher preparation.</p>
+<p class="project-collaborators">With Latesha Watson</p>
+<span class="project-status"><span aria-hidden="true"></span>In progress</span>
+</div>
+<i class="bi bi-chevron-down project-chevron" aria-hidden="true"></i>
+</summary>
+
+::: {.project-description}
+### Generative AI Literacy in Teacher Education: An Integrative Review of Cultural Responsiveness and Voice
 
 Generative artificial intelligence is increasingly shaping educational practice, creating new expectations for how teachers and students evaluate information, challenge algorithmic outputs, and exercise independent judgment. AI literacy frameworks frequently emphasize the importance of critically questioning generated content, identifying bias, and rejecting inaccurate or misleading information. However, these practices are not culturally neutral. Behaviors interpreted as critical inquiry in one educational context may be perceived as disrespect, defiance, or inappropriate challenges to authority in another, particularly when expectations surrounding language, tone, and professional conduct are shaped by race, culture, and institutional power. Moreover, AI systems may privilege dominant linguistic conventions and forms of knowledge while marginalizing culturally situated ways of communicating and understanding the world. This integrative review examines the intersection of generative AI literacy, culturally responsive and sustaining pedagogy, and teacher preparation, with particular attention to epistemic authority, cultural voice, and the social conditions governing critique. The project seeks to develop a critical perspective on AI literacy that prepares future teachers not merely to use generative systems effectively, but to recognize how technology, identity, and power shape whose knowledge is treated as legitimate.
+:::
 
-## Generative Artificial Intelligence, Epistemology, and Epistemic Risk in Psychological Research: A Scoping Review
+</details>
 
-**Collaborator:** Kaley Rittichier  
-**Status:** In progress
+<details class="project-row" id="project-3">
+<summary>
+<span class="project-topic">AI &amp; scientific knowledge</span>
+<div class="project-overview">
+<h2 class="project-question">What risks does generative AI introduce in psychological research, and how can we address them?</h2>
+<p class="project-deck">Mapping how generative AI is used in psychological research, the risks associated with each role, and the safeguards proposed to address them.</p>
+<p class="project-collaborators">With Kaley Rittichier</p>
+<span class="project-status"><span aria-hidden="true"></span>In progress</span>
+</div>
+<i class="bi bi-chevron-down project-chevron" aria-hidden="true"></i>
+</summary>
+
+::: {.project-description}
+### Generative Artificial Intelligence, Epistemology, and Epistemic Risk in Psychological Research: A Scoping Review
 
 Generative artificial intelligence is increasingly incorporated into psychological research, supporting activities ranging from literature synthesis and scientific writing to statistical programming, data analysis, measurement, and participant simulation. These applications create opportunities to expand researchers' capabilities and improve scientific workflows. However, treating generative AI use as a single methodological category obscures important differences in how these systems participate in knowledge production. An AI-generated citation, a statistical analysis produced through generated code, and synthetic participant responses occupy fundamentally different epistemic roles, and errors in each context have different consequences for scientific inference. The methodological concern is therefore not simply whether generative AI produces inaccurate information, but how its particular function influences the credibility, interpretation, and justification of scientific knowledge. This scoping review examines how generative AI is used in psychological and related research, the epistemic functions it performs, the risks associated with those functions, and the safeguards proposed to manage them. Drawing on the relationship between ontology, epistemology, and methodology, the project aims to develop a conceptual framework connecting AI's role in research to the verification, transparency, and accountability practices warranted by that role.
+:::
 
-## What's the Problem Represented to Be? A Conceptual Framework Using a Cognitive Developmental Neuroscience Example
+</details>
 
-**Collaborator:** Arielle Keller  
-**Status:** In progress
+<details class="project-row" id="project-4">
+<summary>
+<span class="project-topic">Research questions &amp; assumptions</span>
+<div class="project-overview">
+<h2 class="project-question">How does the way we frame a problem shape the science?</h2>
+<p class="project-deck">Adapting problem-representation analysis to help neuroscience researchers examine the assumptions behind their questions.</p>
+<p class="project-collaborators">With Arielle Keller</p>
+<span class="project-status"><span aria-hidden="true"></span>In progress</span>
+</div>
+<i class="bi bi-chevron-down project-chevron" aria-hidden="true"></i>
+</summary>
+
+::: {.project-description}
+### What's the Problem Represented to Be? A Conceptual Framework Using a Cognitive Developmental Neuroscience Example
 
 Scientific research is organized around questions that define what requires explanation, which constructs deserve investigation, and what evidence is considered relevant. In cognitive developmental neuroscience, these questions shape the selection of populations, experimental tasks, measurement instruments, and theoretical explanations of brain-behavior relationships. However, research questions are not neutral representations of naturally occurring problems. They reflect underlying assumptions about how problems are defined, whose perspectives are represented, and which explanations are considered scientifically meaningful. When these assumptions remain unexamined, researchers may develop increasingly sophisticated methods for investigating problems whose original formulation unnecessarily constrains the inquiry. This conceptual paper adapts Carol Bacchi's *What's the Problem Represented to Be?* framework, originally developed for policy analysis, to the formulation and evaluation of research questions in developmental cognitive neuroscience. By integrating problem-representation analysis with systems thinking, the project aims to provide researchers with a structured approach to identifying implicit assumptions, considering alternative problem formulations, and examining opportunities for intervention at different levels of a scientific system. The paper also proposes an AI-assisted prototype to support researchers in critically reflecting on and refining their research questions.
+:::
 
-## Social-Emotional Outcomes Among Twice-Exceptional Students With ADHD: A Critical Quantitative Systematic Review
+</details>
 
-**Collaborators:** Jimmy Wilson, Mikayla Friday, and Michael Vaccaro  
-**Status:** In progress
+<details class="project-row" id="project-5">
+<summary>
+<span class="project-topic">Classification &amp; student experience</span>
+<div class="project-overview">
+<h2 class="project-question">What do we learn when giftedness and ADHD are studied together?</h2>
+<p class="project-deck">Synthesizing social-emotional outcomes while examining how classification, measurement, and sampling shape the evidence.</p>
+<p class="project-collaborators">With Jimmy Wilson, Mikayla Friday, and Michael Vaccaro</p>
+<span class="project-status"><span aria-hidden="true"></span>In progress</span>
+</div>
+<i class="bi bi-chevron-down project-chevron" aria-hidden="true"></i>
+</summary>
+
+::: {.project-description}
+### Social-Emotional Outcomes Among Twice-Exceptional Students With ADHD: A Critical Quantitative Systematic Review
 
 Twice-exceptional students with attention-deficit/hyperactivity disorder (2eADHD) possess both advanced abilities and disability-related characteristics, creating complex educational and social-emotional experiences that cannot be adequately understood through either giftedness or disability alone. Quantitative research examining these students has investigated outcomes such as self-esteem, anxiety, peer relationships, social competence, and psychological adjustment. However, the evidence produced by this research depends on how giftedness and ADHD are defined, which students are identified and included, and whether measurement instruments primarily capture difficulties relative to neurotypical expectations rather than strengths, contextual barriers, or differences in lived experience. These decisions are consequential because educational and clinical classification systems may reproduce inequities in whose abilities and support needs become visible. This systematic review synthesizes research on social-emotional outcomes among twice-exceptional students with ADHD while applying a critical quantitative (CritQuant) perspective informed by Disability Critical Race Theory (DisCrit) and neurodiversity scholarship. Beyond summarizing reported outcomes, the project examines how classification, measurement, sampling, and interpretation shape the available evidence, with the goal of supporting more contextually informed, strengths-based, and methodologically defensible research.
+:::
+
+</details>
+
+:::
 
